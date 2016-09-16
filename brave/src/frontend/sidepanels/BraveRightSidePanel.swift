@@ -247,6 +247,7 @@ class BraveRightSidePanelViewController : SidePanelBaseViewController {
                 label.snp_makeConstraints { make in
                     make.left.equalTo(switchItem.snp_right).offset(10)
                     make.centerY.equalTo(switchItem.snp_centerY)
+                    make.right.equalTo(label.superview!.snp_right)
                 }
 
                 return row
@@ -260,6 +261,7 @@ class BraveRightSidePanelViewController : SidePanelBaseViewController {
                 if UIDevice.currentDevice().userInterfaceIdiom != .Pad {
                     views_labels[i].font = UIFont.systemFontOfSize(15)
                 }
+                views_labels[i].adjustsFontSizeToFitWidth = true
                 rows.append(layoutSwitch(item, label: views_labels[i]))
             }
 
@@ -332,6 +334,7 @@ class BraveRightSidePanelViewController : SidePanelBaseViewController {
                 label.snp_makeConstraints(closure: { (make) in
                     make.left.equalTo(stat.snp_right).offset(6 + 14)
                     make.centerY.equalTo(stat)
+                    make.right.equalTo(label.superview!.snp_right)
                 })
 
                 prevTitle = label
@@ -339,6 +342,8 @@ class BraveRightSidePanelViewController : SidePanelBaseViewController {
                 if UIDevice.currentDevice().userInterfaceIdiom != .Pad {
                     label.font = UIFont.systemFontOfSize(15)
                 }
+
+                label.adjustsFontSizeToFitWidth = true
             }
         }
         setupStatsSection()
