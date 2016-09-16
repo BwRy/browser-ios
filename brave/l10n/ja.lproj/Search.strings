@@ -1,0 +1,15 @@
+/* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
+"No" = "いいえ";
+
+/* Label for search settings button. */
+"Search Settings" = "検索設定";
+
+/* Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google */
+"Search suggestions from %@" = "%@の予測結果";
+
+/* Prompt shown before enabling provider search queries */
+"Turn on search suggestions?" = "予測結果を表示しますか？";
+
+/* For search suggestions prompt. This string should be short so it fits nicely on the prompt row. */
+"Yes" = "はい";
+

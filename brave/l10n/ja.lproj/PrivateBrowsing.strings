@@ -1,0 +1,21 @@
+/* Setting for closing private tabs */
+"Close Private Tabs" = "プライベートタブを閉じる";
+
+/* Toggled OFF accessibility value */
+"Off" = "オフ";
+
+/* Toggled ON accessibility value */
+"On" = "オン";
+
+/* Context menu option for opening a link in a new private tab */
+"Open In New Private Tab" = "新しいプライベートタブで開く";
+
+/* Title displayed for when there are no open tabs while in private mode */
+"Private Browsing" = "プライベートブラウズ";
+
+/* Accessibility label for toggling on/off private mode */
+"Private Mode" = "プライベートモード";
+
+/* Accessiblity hint for toggling on/off private mode */
+"Turns private mode on or off" = "プライベートのオンとオフを切り替える";
+

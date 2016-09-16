@@ -1,0 +1,25 @@
+/* Settings item for clearing browsing history */
+"Browsing History" = "履歴";
+
+/* Settings item for clearing the cache */
+"Cache" = "キャッシュ";
+
+/* Used as a button label in the dialog to cancel clear private data dialog */
+"Cancel" = "キャンセル";
+
+/* Used as a button label in the dialog to Clear private data dialog */
+"Clear" = "消去";
+
+/* Title of the Clear private data dialog. */
+"Clear Everything" = "全てを消去";
+
+/* Button in settings that clears private data for the selected items.
+   Navigation title in settings. */
+"Clear Private Data" = "プライベートデータを消去";
+
+/* Settings item for clearing cookies */
+"Cookies" = "クッキー";
+
+/* Settings item for clearing passwords and login data */
+"Saved Logins" = "保存したログイン情報";
+
