@@ -85,7 +85,7 @@ func getRemoteFrecencySQL() -> String {
 }
 
 func getLocalFrecencySQL() -> String {
-    let visitCountExpression = "((2 + localVisitCount) * (2 + localVisitCount))"
+    let visitCountExpression = "localVisitCount"
     let now = NSDate.nowMicroseconds()
     let microsecondsPerDay = 86_400_000_000.0      // 1000 * 1000 * 60 * 60 * 24
     let ageDays = "((\(now) - localVisitDate) / \(microsecondsPerDay))"
